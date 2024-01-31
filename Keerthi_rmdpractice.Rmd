@@ -1,0 +1,34 @@
+---
+title: "New R Markdown file- Keerthi Stanley"
+output: html_document
+date: "2024-01-29"
+---
+
+```{r}
+
+```
+
+## R Markdown
+
+All of this info is just plain descriptive text! For the {} all you need is the type of code you're working with ('r') but you also can add a name to the code chunk and then refer back to it later, as seen below
+
+```{r cars}
+summary(cars)
+```
+
+Hi folks nice to see you!
+The chunk of code below adds 2 and 3 together
+```{r echo = FALSE}
+2 + 3
+```
+
+
+```{r eval = FALSE}
+2 + 3
+```
+
+
+```{r}
+2 + 3
+```
+
